@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mac/Monochrome/17x17/img.circle.image.17</title>
+    <defs>
+        <rect id="path-1" x="2" y="2" width="13" height="13" rx="6.5"></rect>
+        <linearGradient x1="50%" y1="17.4750434%" x2="50%" y2="89.8871528%" id="linearGradient-3">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.35" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Mac/Monochrome/17x17/img.circle.image.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect stroke="#000000" x="2.5" y="2.5" width="12" height="12" rx="6"></rect>
+        <path d="M6.70710678,7.70710678 L10,11 L11.2928932,9.70710678 C11.6834175,9.31658249 12.3165825,9.31658249 12.7071068,9.70710678 L14,11 L14,14 L2,14 L2,11 L5.29289322,7.70710678 C5.68341751,7.31658249 6.31658249,7.31658249 6.70710678,7.70710678 Z M10.5,5 C11.3284271,5 12,5.67157288 12,6.5 C12,7.32842712 11.3284271,8 10.5,8 C9.67157288,8 9,7.32842712 9,6.5 C9,5.67157288 9.67157288,5 10.5,5 Z" id="Combined-Shape" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+    </g>
+</svg>

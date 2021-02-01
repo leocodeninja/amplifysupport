@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mac/Monochrome/17x17/img.sliders.3.17</title>
+    <g id="Mac/Monochrome/17x17/img.sliders.3.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14.506259,12 C14.7486462,12 14.9502392,12.1832562 14.9920452,12.4122514 L15,12.5 C15,12.7761424 14.7743607,13 14.506259,13 L7.5,13 L7.5,12 L14.506259,12 Z M14.506259,8 C14.7486462,8 14.9502392,8.18325617 14.9920452,8.41225137 L15,8.5 C15,8.77614237 14.7743607,9 14.506259,9 L12.5,9 L12.5,8 L14.506259,8 Z M10.5,8 L10.5,9 L2.49374104,9 C2.22105539,9 2,8.76806641 2,8.5 C2,8.22385763 2.22563934,8 2.49374104,8 L10.5,8 Z M14.506259,4 C14.7486462,4 14.9502392,4.18325617 14.9920452,4.41225137 L15,4.5 C15,4.77614237 14.7743607,5 14.506259,5 L6.5,5 L6.5,4 L14.506259,4 Z M4.5,4 L4.5,5 L2.49374104,5 C2.22105539,5 2,4.76806641 2,4.5 C2,4.22385763 2.22563934,4 2.49374104,4 L4.5,4 Z M5.5,13 L2.49374104,13 C2.22105539,13 2,12.7680664 2,12.5 C2,12.2238576 2.22563934,12 2.49374104,12 L5.5,12 L5.5,13 Z" id="Combined-Shape" fill="#000000"></path>
+        <rect id="Rectangle" stroke="#000000" fill-opacity="0.2" fill="#000000" x="4.5" y="3.5" width="2" height="2" rx="1"></rect>
+        <rect id="Rectangle" stroke="#000000" fill-opacity="0.2" fill="#000000" x="10.5" y="7.5" width="2" height="2" rx="1"></rect>
+        <rect id="Rectangle" stroke="#000000" fill-opacity="0.2" fill="#000000" x="5.5" y="11.5" width="2" height="2" rx="1"></rect>
+    </g>
+</svg>

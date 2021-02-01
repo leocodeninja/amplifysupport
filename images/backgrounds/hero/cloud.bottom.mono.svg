@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1890" height="1444">
+  <defs>
+    <path id="a" d="M0 0h1890v1444H0z" />
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a" />
+    </mask>
+    <g mask="url(#b)">
+      <g transform="translate(1 1)">
+        <circle cx="333.722" cy="1347.724" r="330.724" fill="#FFF" fill-opacity=".8" />
+        <circle cx="330.724" cy="1367.708" r="330.724" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+          stroke-opacity=".08" />
+        <circle cx="701.348" cy="1398.345" r="173.356" fill="#DADCDC" fill-opacity=".4" />
+        <circle cx="692.356" cy="1385.356" r="173.356" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+          stroke-opacity=".08" />
+        <circle cx="1258.285" cy="1335.299" r="236.303" fill="#FFF" fill-opacity=".8" />
+        <circle cx="1236.303" cy="1330.303" r="236.303" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+          stroke-opacity=".08" />
+        <ellipse cx="1656.5" cy="1167" fill="#000" fill-opacity=".05" rx="126.5" ry="126" />
+        <ellipse cx="1672.5" cy="1184" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".08"
+          rx="126.5" ry="126" />
+        <ellipse cx="1502.318" cy="1393.818" fill="#FFF" fill-opacity=".8" rx="203.331" ry="202.831" />
+        <ellipse cx="1487.331" cy="1377.831" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+          stroke-opacity=".08" rx="203.331" ry="202.831" />
+        <circle cx="1287.5" cy="498.5" r="498.5" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+          stroke-opacity=".08" />
+      </g>
+    </g>
+  </g>
+</svg>

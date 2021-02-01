@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mac/Monochrome/17x17/img.rulers.17</title>
+    <g id="Mac/Monochrome/17x17/img.rulers.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M14.5,1.5 C14.7761424,1.5 15.0261424,1.61192881 15.2071068,1.79289322 C15.3880712,1.97385763 15.5,2.22385763 15.5,2.5 L15.5,2.5 L15.5,4.5 C15.5,4.77614237 15.3880712,5.02614237 15.2071068,5.20710678 C15.0261424,5.38807119 14.7761424,5.5 14.5,5.5 L14.5,5.5 L5.5,5.5 L5.5,1.5 Z" id="Rectangle-35" stroke="#000000" fill-opacity="0.2" fill="#000000" fill-rule="nonzero"></path>
+        <rect id="Rectangle-35" stroke="#000000" fill-opacity="0.2" fill="#000000" fill-rule="nonzero" x="1.5" y="1.5" width="4" height="14" rx="1"></rect>
+        <path d="M5,13 L5,14 L3.5,14 C3.22385763,14 3,13.7761424 3,13.5 C3,13.2238576 3.22385763,13 3.5,13 L5,13 Z M5,10 L5,11 L3.5,11 C3.22385763,11 3,10.7761424 3,10.5 C3,10.2238576 3.22385763,10 3.5,10 L5,10 Z M5,7 L5,8 L3.5,8 C3.22385763,8 3,7.77614237 3,7.5 C3,7.22385763 3.22385763,7 3.5,7 L5,7 Z M5,4 L5,5 L3.5,5 C3.22385763,5 3,4.77614237 3,4.5 C3,4.22385763 3.22385763,4 3.5,4 L5,4 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        <path d="M13.5,3 C13.7761424,3 14,3.22385763 14,3.5 L14,5 L13,5 L13,3.5 C13,3.22385763 13.2238576,3 13.5,3 Z M10.5,3 C10.7761424,3 11,3.22385763 11,3.5 L11,5 L10,5 L10,3.5 C10,3.22385763 10.2238576,3 10.5,3 Z M7.5,3 C7.77614237,3 8,3.22385763 8,3.5 L8,5 L7,5 L7,3.5 C7,3.22385763 7.22385763,3 7.5,3 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

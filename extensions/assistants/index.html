@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  class="no-js"
+  data-controller="scrollable"
+  data-action="click->scrollable#navigate DOMContentLoaded@window->scrollable#goToHash hashchange@window->scrollable#goToHash">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preload" href="../../webfonts/3237E4_0_0.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="../../webfonts/37A739_0_0.woff2" as="font" type="font/woff2" crossorigin />
+  
+  
+  <!-- Title -->
+<title>Sketch — Assistants</title>
+<meta property="og:title" content="Assistants" />
+<meta name="twitter:title" content="Assistants" />
+
+<!-- Description -->
+<meta name="description" content="Assistants can help you spot issues with your documents, stay consistent with design systems, prepare your files for collaboration, and follow your team’s rules." />
+<meta property="og:description" content="Assistants can help you spot issues with your documents, stay consistent with design systems, prepare your files for collaboration, and follow your team’s rules." />
+<meta name="twitter:description" content="Assistants can help you spot issues with your documents, stay consistent with design systems, prepare your files for collaboration, and follow your team’s rules." />
+
+<!-- Images -->
+<meta property="og:image" content="https://cdn.sketchapp.com/assets/assistants/cover@2x.jpg" />
+<meta name="twitter:image" content="https://www.sketch.com/images/layouts/base/social-twitter-70.jpg" />
+
+<!-- Non-Dynamic Metadata -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Sketch" />
+<meta name="twitter:site" content="@sketch" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="alternate" type="application/atom+xml" title="RSS Feed for the Sketch Blog" href="../../blog/feed.xml" />
+<link rel="shortcut icon" href="../../images/components/icons/favicon@2x.png" sizes="32x32" />
+<link rel="apple-touch-icon" href="../../images/components/icons/apple-touch-icon.png" />
+<link rel="icon" href="../../images/components/icons/apple-touch-icon.png" />
+
+  
+
+    <link rel="stylesheet" href="../../css/style.cd5995c4c4.css" />
+
+  
+  
+
+<script>
+  window.SENTRY_RELEASE_NAME = 'production_20210130-0925_Hr2WGLuJFP_E'
+</script>
+<script defer src="../../js/sentry.f60865c63a1d32245cb0.js"></script>
+
+
+
+  <script>
+  window.ga =
+    window.ga ||
+    function() {
+      ;(ga.q = ga.q || []).push(arguments)
+    }
+  ga.l = +new Date()
+  ga('create', 'UA-52736259-3', 'auto', { allowLinker: true })
+  // Anonymize IP for user privacy
+  ga('set', 'anonymizeIp', true)
+  // Use Navigator.sendBeacon if supported
+  ga('set', 'transport', 'beacon')
+  // Cross-site config
+  ga('require', 'linker')
+  ga('linker:autoLink', ['sketch.com', 'sketchapp.com', 'fastspring.com', 'sites.fastspring.com'])
+  // Initial hit
+  ga('send', 'pageview')
+</script>
+<script defer src="https://www.google-analytics.com/analytics.js"></script>
+
+  <script defer src="../../js/script.f60865c63a1d32245cb0.js"></script>
+
+  
+<script src="../../js/algoliasearch.min.js"></script>
+<script src="../../js/autocomplete.min.js"></script>
+
+</head>
+
+<body
+  class=" bg-hero-extensions-top-mono main-nav-offset"
+  itemscope
+  itemtype="http://schema.org/Product">
+  
+
+<a href="index.html#content" class="main-nav-skip">
+    Skip Navigation
+  </a>
+
+<header
+  class="main-nav main-nav--translucent"
+  data-controller="main-nav"
+  data-action="resize@window->main-nav#resized keydown@document->main-nav#keyPressed storage@window->main-nav#checkLoginState"
+  data-target="scrollable.sticky"
+  >
+  <nav class="main-nav__inner"><div class="main-nav__bar">
+      <div class="main-nav__controls" data-target="main-nav.navToggle">
+        <button
+          data-action="main-nav#toggleNav"
+          aria-expanded="false"
+          class="main-nav__toggle"
+          id="main-nav-toggle"
+          title="Toggle Menu"
+          aria-controls="main-nav-menu">
+          <!-- CSS Icon -->
+          <span class="main-nav__toggle__icon">
+            <span class="main-nav__toggle__icon__line main-nav__toggle__icon__line--top"></span>
+            <span class="main-nav__toggle__icon__line main-nav__toggle__icon__line--bottom"></span>
+          </span>
+          <span class="visuallyhidden">Menu</span>
+        </button>
+      </div>
+
+      <h1 class="main-nav__logo">
+        <a class="main-nav__logo__link" href="../../index.html" title="Go to Homepage">
+          <svg xmlns="http://www.w3.org/2000/svg" width="31" height="28" viewBox="0 0 31 28" class="main-nav__logo__img main-nav__logo__img--icon">
+  <path fill="#FDB300" d="M6.75.922L15.469 0l8.719.922L30.938 10 15.469 28 0 10z"></path>
+  <path fill="#EA6C00" d="M6.266 10l9.203 18L0 10z"></path>
+  <path fill="#EA6C00" d="M24.672 10l-9.204 18 15.469-18z"></path>
+  <path fill="#FDAD00" d="M6.266 10h18.406l-9.203 18z"></path>
+  <path fill="#FDD231" d="M15.469 0L6.75.922 6.266 10z"></path>
+  <path fill="#FDD231" d="M15.468 0l8.719.922.484 9.078z"></path>
+  <path fill="#FDAD00" d="M30.937 10L24.187.922 24.672 10zM0 10L6.75.922 6.266 10z"></path>
+  <path fill="#FEEEB7" d="M15.469 0L6.266 10h18.406z"></path>
+</svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="83" height="28" viewBox="0 0 83 28" fill="#000000" class="main-nav__logo__img main-nav__logo__img--wordmark">
+  <path d="M9.14 17.34l-.022-.287H6.742l.013.322c.146 3.59 2.55 5.967 6.825 5.967 4.078 0 6.85-2.133 6.85-5.36 0-1.746-.601-2.981-1.748-3.825-.881-.648-1.936-1.014-3.684-1.396a63.132 63.132 0 00-.765-.163c-3.175-.67-4.182-1.252-4.182-2.985 0-1.792 1.456-2.934 3.898-2.934 2.376 0 3.878 1.46 3.948 3.76l.009.3h2.359l-.007-.316c-.082-3.585-2.472-5.997-6.334-5.997-3.785 0-6.284 2.293-6.284 5.261 0 1.74.601 2.953 1.75 3.763.874.616 1.887.943 3.674 1.307a81.343 81.343 0 00.549.11c1.69.336 2.437.544 3.118.943.845.494 1.264 1.2 1.264 2.295 0 1.9-1.587 2.984-4.366 2.984-2.66 0-4.31-1.343-4.49-3.75zM25.41 4.115v-.309h-2.36V22.996H25.41v-3.621l2.485-2.437 4.439 5.934.092.123h2.938l-.375-.496-5.42-7.188 4.998-5.008.528-.53h-3.209l-.09.092-6.386 6.474V4.116zm22.063 13.086h.29l.017-.29a15.869 15.869 0 00.025-.688c0-3.885-2.556-6.747-6.333-6.747-3.77 0-6.456 3.047-6.456 6.895 0 3.96 2.564 6.92 6.48 6.92 2.962 0 5.25-1.768 6.074-4.451l.124-.401h-2.455l-.072.206c-.518 1.468-1.92 2.443-3.646 2.443-2.257 0-3.83-1.56-4.114-3.887h10.066zm-9.994-2.055c.398-2.084 1.92-3.467 3.993-3.467 2.136 0 3.61 1.338 3.933 3.467h-7.926zm18.074-3.269h.308V9.773H52.983v-3.59H50.622v3.59h-2.386v2.106h2.386v7.415c0 2.432 1.253 3.75 3.554 3.75.401 0 .748-.023 1.038-.064.18-.025.304-.051.372-.07l.225-.063v-2.204l-.372.081a6.228 6.228 0 01-.33.058 5.15 5.15 0 01-.712.06c-1.008 0-1.414-.477-1.414-1.672v-7.292h2.57zm7.342 11.414c3.268 0 5.576-2.082 6.156-5.028l.072-.37H66.742l-.061.23c-.497 1.88-1.844 2.965-3.786 2.965-2.423 0-4.095-1.925-4.095-4.692 0-2.789 1.669-4.717 4.095-4.717 1.942 0 3.29 1.084 3.786 2.964l.06.23h2.382l-.072-.37c-.58-2.945-2.888-5.027-6.156-5.027-3.796 0-6.481 3.068-6.481 6.92 0 3.83 2.688 6.895 6.481 6.895zM73.471 4.116v-.309H71.11V22.996H73.471v-7.763c0-2.27 1.373-3.602 3.456-3.602 1.99 0 2.989 1.16 2.989 3.355v8.01H82.277V14.638c0-3.101-1.908-5.162-5.055-5.162-1.619 0-2.92.597-3.75 1.454V4.116z"></path>
+</svg>
+
+          <span class="visuallyhidden">Sketch</span>
+        </a>
+      </h1>
+
+      <div class="main-nav__persistent">
+        <div class="main-nav__persistent__profile is-hidden" data-target="main-nav.authProfile"></div>
+        <ul class="main-nav__persistent__actions is-hidden" data-target="main-nav.authActions">
+            <li class="main-nav__item
+              ">
+              <a
+                href="../../signin.html"
+                class="main-nav__link main-nav__link--action"
+                data-controller="dialog" data-action="dialog#open" data-dialog-href="/partials/signin/" data-event-type="link" data-event-label="header: cloud documents"
+
+                >Sign In</a>
+            </li>
+          
+        </ul>
+      </div>
+    </div><div class="main-nav__menu" id="main-nav-menu" id="main-nav-menu" aria-labelledby="main-nav-toggle"><ul class="main-nav__menu__pages"><li class="main-nav__item">
+              <a
+                href="../../for-designers/index.html"
+                class="main-nav__link"
+                
+                >For Designers</a>
+            </li><li class="main-nav__item">
+              <a
+                href="../../teams/index.html"
+                class="main-nav__link"
+                
+                >For Teams</a>
+            </li><li
+              class="main-nav__item main-nav__subnav"
+              data-target="main-nav.subnav"
+            >
+              <button
+                class="main-nav__link main-nav__subnav__toggle"
+                data-action="main-nav#toggleSubnav"
+              >
+                Resources
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" stroke="#000" class="main-nav__link__icon">
+  <path stroke-width="1.5" d="M2.75 6L8 11.25 13.25 6" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+
+              </button>
+              <div class="main-nav__subnav__menu">
+                <ul class="main-nav__subnav__items"><li class="main-nav__subnav__item">
+                      <div class="main-nav__subnav__header">
+                        <a href="../../support.html" class="main-nav__subnav__header__icon-link" tabindex="-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" class="main-nav__subnav__header__icon"><g fill="none" fill-rule="evenodd"><path d="M16 3c3.59 0 6.84 1.455 9.192 3.808C27.545 9.16 29 12.41 29 16s-1.455 6.84-3.808 9.192C22.84 27.545 19.59 29 16 29s-6.84-1.455-9.192-3.808C4.455 22.84 3 19.59 3 16s1.455-6.84 3.808-9.192A12.96 12.96 0 0116 3zm0 6a6.978 6.978 0 00-4.95 2.05C9.784 12.317 9 14.067 9 16s.784 3.683 2.05 4.95C12.317 22.216 14.067 23 16 23s3.683-.784 4.95-2.05C22.216 19.683 23 17.933 23 16s-.784-3.683-2.05-4.95A6.978 6.978 0 0016 9z" stroke="#000" stroke-width="2"></path><path d="M19.249 22.202l2.843 5.427c-1.82.955-3.893 1.496-6.092 1.496s-4.271-.54-6.092-1.496l2.843-5.427c.971.51 2.076.798 3.249.798s2.278-.288 3.249-.798zM4.371 9.908l5.427 2.843C9.288 13.722 9 14.827 9 16s.288 2.278.798 3.249l-5.427 2.843c-.955-1.82-1.496-3.893-1.496-6.092s.54-4.271 1.496-6.092zM29.125 16c0 2.199-.54 4.271-1.496 6.092l-5.427-2.843c.51-.971.798-2.076.798-3.249s-.288-2.278-.798-3.249l5.427-2.843A13.068 13.068 0 0129.125 16zM16 2.875c2.199 0 4.271.54 6.092 1.496l-2.843 5.427C18.278 9.288 17.173 9 16 9s-2.278.288-3.249.798L9.908 4.371A13.068 13.068 0 0116 2.875z" fill="#000"></path></g></svg>
+
+                        </a>
+                        <dl class="main-nav__subnav__header__text">
+                          <dt class="main-nav__subnav__header__label">
+                            <a href="../../support.html" class="main-nav__subnav__link">
+                              Get Help
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" stroke="#000" class="main-nav__subnav__link__icon">
+  <polyline fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" points="6.25 3.75 10.5 8 6.25 12.25"></polyline>
+</svg>
+
+                            </a>
+                          </dt>
+                          <dd class="main-nav__subnav__header__description">Read our <a class="main-nav__subnav__header__description__link" href="../../support.html">documentation and FAQs</a>, or <a class="main-nav__subnav__header__description__link" href="../../support/contact/index.html">get in touch</a>.</dd>
+                        </dl>
+                      </div>
+                      
+                    </li><li class="main-nav__subnav__item">
+                      <div class="main-nav__subnav__header">
+                        <a href="../../extensions.html" class="main-nav__subnav__header__icon-link" tabindex="-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" class="main-nav__subnav__header__icon"><g fill="#000000" fill-rule="evenodd"><rect height="11" rx="1.5" width="11" x="4" y="17"></rect><rect height="11" rx="1.5" width="11" x="4" y="4"></rect><rect height="11" rx="1.5" width="11" x="17" y="17"></rect><rect height="11" rx="1.5" width="11" x="19" y="2"></rect></g></svg>
+
+                        </a>
+                        <dl class="main-nav__subnav__header__text">
+                          <dt class="main-nav__subnav__header__label">
+                            <a href="../../extensions.html" class="main-nav__subnav__link">
+                              Extensions
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" stroke="#000" class="main-nav__subnav__link__icon">
+  <polyline fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" points="6.25 3.75 10.5 8 6.25 12.25"></polyline>
+</svg>
+
+                            </a>
+                          </dt>
+                          <dd class="main-nav__subnav__header__description">Do even more with <a class="main-nav__subnav__header__description__link" href="index.html">Assistants</a>, <a class="main-nav__subnav__header__description__link" href="../../plugins/index.html">plugins</a> and <a class="main-nav__subnav__header__description__link" href="../integrations/index.html">integrations</a>.</dd>
+                        </dl>
+                      </div>
+                      
+                    </li><li class="main-nav__subnav__item">
+                      <div class="main-nav__subnav__header">
+                        <a href="../../community.html" class="main-nav__subnav__header__icon-link" tabindex="-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" class="main-nav__subnav__header__icon"><path fill="#000" d="M16 2c6.627 0 12 5.373 12 12 0 6.119-3.635 11.554-10.906 16.307a2 2 0 01-2.188 0l-.416-.275C7.497 25.345 4 20 4 14 4 7.373 9.373 2 16 2zm0 7a5 5 0 100 10 5 5 0 000-10z" fill-rule="evenodd"></path></svg>
+
+                        </a>
+                        <dl class="main-nav__subnav__header__text">
+                          <dt class="main-nav__subnav__header__label">
+                            <a href="../../community.html" class="main-nav__subnav__link">
+                              Events & Meetups
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" stroke="#000" class="main-nav__subnav__link__icon">
+  <polyline fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" points="6.25 3.75 10.5 8 6.25 12.25"></polyline>
+</svg>
+
+                            </a>
+                          </dt>
+                          <dd class="main-nav__subnav__header__description">Discover and join your local Sketch community.</dd>
+                        </dl>
+                      </div>
+                      
+                        
+
+
+
+
+
+
+
+  <ol class="main-nav__subnav__sublist main-nav__subnav__sublist--community">
+      <li class="main-nav__subnav__subitem">
+        <a
+          href="../../community/groups/seoul/index.html%3Fevent=2021-01-30.html"
+          class="main-nav__subnav__sublink">
+          <span class="main-nav__subnav__time-wrapper">
+            <time
+              data-controller="relative-date"
+              data-relative-date-date="2021-01-30"
+              data-relative-date-proximity="near"
+              class="main-nav__subnav__time main-nav__subnav__time--orange"
+              datetime="2021-01-30"
+              title="2021-01-30"
+            >Jan 30</time>
+          </span>
+          <span>[Online] Designing Visual assets with Sketch</span>
+        </a>
+      </li>
+      <li class="main-nav__subnav__subitem">
+        <a
+          href="../../community/groups/los-angeles/index.html%3Fevent=2021-02-06.html"
+          class="main-nav__subnav__sublink">
+          <span class="main-nav__subnav__time-wrapper">
+            <time
+              data-controller="relative-date"
+              data-relative-date-date="2021-02-06"
+              data-relative-date-proximity="near"
+              class="main-nav__subnav__time "
+              datetime="2021-02-06"
+              title="2021-02-06"
+            >Feb  6</time>
+          </span>
+          <span>Real-time Collaboration session with Sketch 71 (Beta)</span>
+        </a>
+      </li></ol>
+
+
+
+
+                      
+                    </li><li class="main-nav__subnav__item">
+                      <div class="main-nav__subnav__header">
+                        <a href="../../blog/index.html" class="main-nav__subnav__header__icon-link" tabindex="-1">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" class="main-nav__subnav__header__icon"><path fill="#000" d="M27 4a2 2 0 012 2v18a4 4 0 01-4 4H7a4 4 0 01-4-4V6a2 2 0 012-2zM13.5 16h-7a.5.5 0 00-.5.5v8a.5.5 0 00.5.5h7a.5.5 0 00.5-.5v-8a.5.5 0 00-.5-.5zm12 5h-8a.5.5 0 00-.5.5v1a.5.5 0 00.5.5h8a.5.5 0 00.5-.5v-1a.5.5 0 00-.5-.5zm0-5h-8a.5.5 0 00-.5.5v1a.5.5 0 00.5.5h8a.5.5 0 00.5-.5v-1a.5.5 0 00-.5-.5zm0-9h-19a.5.5 0 00-.5.5v5a.5.5 0 00.5.5h19a.5.5 0 00.5-.5v-5a.5.5 0 00-.5-.5z" fill-rule="evenodd"></path></svg>
+
+                        </a>
+                        <dl class="main-nav__subnav__header__text">
+                          <dt class="main-nav__subnav__header__label">
+                            <a href="../../blog/index.html" class="main-nav__subnav__link">
+                              Blog
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" stroke="#000" class="main-nav__subnav__link__icon">
+  <polyline fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" points="6.25 3.75 10.5 8 6.25 12.25"></polyline>
+</svg>
+
+                            </a>
+                          </dt>
+                          <dd class="main-nav__subnav__header__description">Get updates, articles and insights from the team.</dd>
+                        </dl>
+                      </div>
+                      
+                        
+  <ol class="main-nav__subnav__sublist main-nav__subnav__sublist--blog">
+      <li class="main-nav__subnav__subitem">
+        <a
+          href="../../blog/2021/01/27/objective-c-how-brad-coxs-programming-language-shaped-sketch/index.html"
+          class="main-nav__subnav__sublink">
+          <span class="main-nav__subnav__time-wrapper">
+            <time
+              data-controller="relative-date"
+              data-relative-date-date="2021-01-27"
+              
+              class="main-nav__subnav__time "
+              datetime="2021-01-27"
+              title="2021-01-27"
+            >Jan 27</time>
+          </span>
+          <span>Objective-C: How Brad Cox’s programming language has shaped Sketch since day one</span>
+        </a>
+      </li>
+      <li class="main-nav__subnav__subitem">
+        <a
+          href="../../blog/2020/12/21/keeping-it-real-nikola-lazarevic-on-photorealistic-design-in-sketch/index.html"
+          class="main-nav__subnav__sublink">
+          <span class="main-nav__subnav__time-wrapper">
+            <time
+              data-controller="relative-date"
+              data-relative-date-date="2020-12-21"
+              
+              class="main-nav__subnav__time "
+              datetime="2020-12-21"
+              title="2020-12-21"
+            >Dec 21</time>
+          </span>
+          <span>Keeping it real: How Nikola Lazarevic creates photorealistic objects in Sketch</span>
+        </a>
+      </li>
+      <li class="main-nav__subnav__subitem">
+        <a
+          href="../../blog/2020/12/17/how-sketch-helps-salesforce-maintain-its-industry-leading-design-system/index.html"
+          class="main-nav__subnav__sublink">
+          <span class="main-nav__subnav__time-wrapper">
+            <time
+              data-controller="relative-date"
+              data-relative-date-date="2020-12-17"
+              
+              class="main-nav__subnav__time "
+              datetime="2020-12-17"
+              title="2020-12-17"
+            >Dec 17</time>
+          </span>
+          <span>Building better: How Sketch helps Salesforce maintain its industry-leading design system</span>
+        </a>
+      </li></ol>
+
+
+
+
+                      
+                    </li></ul>
+              </div>
+            </li><li class="main-nav__item">
+              <a
+                href="../../pricing.html"
+                class="main-nav__link"
+                
+                >Pricing</a>
+            </li></ul><div class="main-nav__menu__auth">
+        <div class="main-nav__menu__auth__profile is-hidden" data-target="main-nav.authProfile"></div>
+        <ul class="main-nav__menu__auth__actions is-hidden" data-target="main-nav.authActions">
+          
+          <li class="main-nav__item
+            
+            main-nav__item--persistent
+          ">
+            <a
+              href="../../signin.html"
+              class="
+              main-nav__link main-nav__link--action"
+              data-controller="dialog" data-action="dialog#open" data-dialog-href="/partials/signin/" data-event-type="link" data-event-label="header: cloud documents"
+
+              >Sign In</a>
+          </li>
+          
+          <li class="main-nav__item
+            main-nav__item--cta
+            
+          ">
+            <a
+              href="../../try/index.html"
+              class="
+              button button--primary button--compact"
+              data-event-type="link" data-event-label="header: free trial"
+
+              >Try for Free</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+
+  <main id="content">
+  <!-- prettier-ignore -->
+
+
+<section
+  class="secondary-nav secondary-nav--transparent secondary-nav--static pad-viewport"
+  data-target="scrollable.sticky"
+  >
+  <!-- prettier-ignore -->
+  <div class="wrapper secondary-nav__content"><div class="secondary-nav__nav-items">
+        
+        <a class="secondary-nav__nav-item" href="../../extensions.html">Extensions</a>
+        
+      </div>
+  </div>
+</section>
+
+
+<div class="assistants-hero pad-viewport activatable" data-controller="activatable">
+  <div class="wrapper">
+    <div class="row">
+      <div class="col span-4 assistants-hero__images-wrapper">
+        <img
+          class="assistants-hero__image-foreground reveal"
+          data-reveal-delay="350"
+          src="https://cdn.sketchapp.com/assets/assistants/panel@2x.png"
+          srcset="
+            https://cdn.sketchapp.com/assets/assistants/panel.png    1x,
+            https://cdn.sketchapp.com/assets/assistants/panel@2x.png 2x
+          "
+          alt="Sketch Assistants panel"
+          draggable="false"
+        />
+        <img
+          class="assistants-hero__image-background reveal"
+          src="https://cdn.sketchapp.com/assets/assistants/app-window@2x.png"
+          srcset="
+            https://cdn.sketchapp.com/assets/assistants/app-window.png    1x,
+            https://cdn.sketchapp.com/assets/assistants/app-window@2x.png 2x
+          "
+          alt="Sketch app window"
+          draggable="false"
+        />
+      </div>
+      <div class="col span-8">
+        <header class="assistants-header">
+          <h1 class="assistants-header__title">A helping hand for your designs</h1>
+          <p class="assistants-header__blurb">
+            Assistants can help you spot issues with your documents, stay consistent with design systems, prepare your
+            files for collaboration, and follow your team’s rules.
+          </p>
+          <button
+            class="assistants-header__cta"
+            data-target="activatable.stateful"
+            data-action="activatable#toggle"
+            aria-controls="assistants-intro"
+          >
+            Find out more
+          </button>
+        </header>
+        <section class="assistants-intro activatable@inactive__hidden" id="assistants-intro">
+          <!-- prettier-ignore -->
+          <div class="row">
+            <div class="col span-6">
+              <div class="box-icon-feature ">
+  
+    <img
+      class="box-icon-feature__icon"
+      srcset="../../images/icons/universal/color/64x64/desk.bell.sparkles.pngparkles.png    1x../../images/icons/universal/color/64x64/desk.bell.sparkles@2x.pngrkles@2x.png 2x"
+      alt=""style="left: -7px"/>
+  
+
+  <div class="box-icon-feature__heading">
+    <h2 class="box-icon-feature__title h4">
+      There’s an Assistant for that
+    </h2>
+    
+  </div>
+
+  <p class="box-icon-feature__blurb">
+    Assistants automatically check your designs and spot issues around consistency, branding, and even
+                  accessibility. They’ll sweat the small stuff, so you can focus on creating great work.
+  </p>
+
+  
+    <a
+      href="../../blog/2020/08/11/introducing-assistants/index.html"
+      class="box-icon-feature__link"
+      >
+      Read our announcement blog post
+    </a>
+  
+</div>
+
+            </div>
+            <div class="col span-6">
+              <div class="box-icon-feature ">
+  
+    <img
+      class="box-icon-feature__icon"
+      srcset="../../images/icons/universal/color/64x64/settings.toggles.pngtoggles.png    1x../../images/icons/universal/color/64x64/settings.toggles@2x.pngggles@2x.png 2x"
+      alt=""style="left: -5px"/>
+  
+
+  <div class="box-icon-feature__heading">
+    <h2 class="box-icon-feature__title h4">
+      A smarter way to work
+    </h2>
+    
+  </div>
+
+  <p class="box-icon-feature__blurb">
+    Add multiple Assistants to a document to cover different rules. Easily ignore rules for experiments or
+                  rough ideas. Then share your document with others to give them the right Assistants automatically.
+  </p>
+
+  
+    <a
+      href="../../docs/assistants.html"
+      class="box-icon-feature__link"
+      >
+      Learn how to use Assistants
+    </a>
+  
+</div>
+
+            </div>
+            <div class="col span-6">
+              <div class="box-icon-feature ">
+  
+    <img
+      class="box-icon-feature__icon"
+      srcset="../../images/icons/universal/color/64x64/globe.png4/globe.png    1x../../images/icons/universal/color/64x64/globe@2x.pngglobe@2x.png 2x"
+      alt=""style="left: -7px"/>
+  
+
+  <div class="box-icon-feature__heading">
+    <h2 class="box-icon-feature__title h4">
+      Built by us, made by you
+    </h2>
+    
+  </div>
+
+  <p class="box-icon-feature__blurb">
+    You can create and customize Assistants using JavaScript — for you, your team, or the whole community. Start with our ready-made rules, or build something completely bespoke.
+  </p>
+
+  
+    <a
+      href="https://developer.sketch.com/assistants/"
+      class="box-icon-feature__link"
+      >
+      Read the developer documentation
+    </a>
+  
+</div>
+
+            </div>
+            <div class="col span-6">
+              <div class="box-icon-feature ">
+  
+    <img
+      class="box-icon-feature__icon"
+      srcset="../../images/icons/universal/color/64x64/window.code.app.pngode.app.png    1x../../images/icons/universal/color/64x64/window.code.app@2x.pnge.app@2x.png 2x"
+      alt=""style="left: -5px"/>
+  
+
+  <div class="box-icon-feature__heading">
+    <h2 class="box-icon-feature__title h4">
+      Ready to run anywhere
+    </h2>
+    
+  </div>
+
+  <p class="box-icon-feature__blurb">
+    Want to check a document with Assistants outside of Sketch? Go right ahead. You can run them from the command line and even add them to Continuous Integration (CI) workflows.
+  </p>
+
+  
+    <a
+      href="https://developer.sketch.com/assistants/cli"
+      class="box-icon-feature__link"
+      >
+      Explore the Assistants CLI
+    </a>
+  
+</div>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-light-base">
+  <!-- prettier-ignore -->
+  <nav class="page-nav " data-target="scrollable.sticky" data-controller="search-input-container">
+  <div class="page-nav__inner wrapper">
+    <ul class="page-nav__items">
+      
+        <li class="page-nav__item">
+          <a class="page-nav__link" href="index.html#featured" data-action="page-nav#navigate">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="page-nav__link__icon">
+  <path fill-rule="evenodd" d="M4.5 6h2a.5.5 0 01.5.5v4a.5.5 0 01-.5.5h-2a2.5 2.5 0 010-5zm4.094-.264l6.578-2.924a1 1 0 011.386 1.116C16.186 5.731 16 7.255 16 8.5s.186 2.769.558 4.572a1 1 0 01-1.386 1.116l-6.578-2.924A1 1 0 018 10.35v-3.7a1 1 0 01.594-.914zM4.61 12h2.683a.293.293 0 01.207.5l-.1.1a1 1 0 00-.263.95l.708 2.829A.5.5 0 017.36 17H5.615a.75.75 0 01-.736-.603l-.76-3.799A.5.5 0 014.61 12zm12.527-5.495A2 2 0 0117 10.5l.136-.007A16.357 16.357 0 0117 8.5c0-.541.038-1.137.112-1.788z"></path>
+</svg>
+
+            Featured
+          </a>
+        </li>
+      
+        <li class="page-nav__item">
+          <a class="page-nav__link" href="index.html#all" data-action="page-nav#navigate">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="page-nav__link__icon">
+  <g fill-rule="evenodd">
+    <path d="M3 14h14a1 1 0 011 1v1a1 1 0 01-1 1H3a1 1 0 01-1-1v-1a1 1 0 011-1zM9 3h2v2H9z"></path>
+    <rect width="4" height="1" x="8" y="3" rx=".5"></rect>
+    <path d="M10 5a7.5 7.5 0 017.5 7.5h-15l.004-.243A7.5 7.5 0 0110 5z"></path>
+    <path d="M9 12h2v2H9z"></path>
+  </g>
+</svg>
+
+            All Assistants
+          </a>
+        </li>
+      
+        <li class="page-nav__item">
+          <a class="page-nav__link" href="index.html#create" data-action="page-nav#navigate">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="page-nav__link__icon"><g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke="#000" stroke-width="2"><path d="M10 4v12M4 10h12"></path></g></svg>
+
+            Create your own
+          </a>
+        </li>
+      
+    </ul>
+    
+    
+
+
+
+<div
+  class="algolia-search page-nav__search"
+  data-controller="search"
+  data-action="resize@window->search#resize"
+  data-search-filters="type:assistant"
+  data-search-show-recommendations="false"
+  data-search-recommendations-heading="Popular Searches"
+  data-search-index-name="prod_extensions"
+>
+  <input
+    type="search"
+    data-target="search.input"
+    data-action="focus->search#showOverlay blur->search#hideOverlay keydown->search#keyPressed"
+    autocomplete="off"
+    class="form-input form-input--wide form-input--search algolia-search__input page-nav__search__input"
+    placeholder="Search for Assistants…"
+  />
+</div>
+
+    
+  </div>
+</nav>
+
+
+  <div class="pad-viewport">
+    <div class="wrapper assistants-groups">
+      <section class="assistants-group" id="featured">
+        <!-- prettier-ignore -->
+        <header class="directory-header assistants-group__header">
+  <div class="directory-header__title-wrapper"><h2 class="directory-header__title">
+      Featured Assistants
+    </h2></div><p class="directory-header__blurb">
+      Here are a few of our favorite Assistants right now — ready to use in just a click.
+    </p></header>
+
+        <div class="row assistant-cells">
+          <!-- prettier-ignore -->
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="@sketch2react/sketch2react-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://user-images.githubusercontent.com/6614632/89069314-38734680-d373-11ea-96f5-c8088f3533a2.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Guidelines
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Sketch2React Conventions&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Team Sketch2React
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      An assistant to help you with Sketch2React's framework's naming conventions and document structure
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="sketch-accessibility-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://i.imgur.com/ijYtOhk.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Accessibility
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Accessibility&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Yana Gevorgyan
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      Ensure your document is accessible and compliant with WCAG 2.1
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="sketch-organizer-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://cdn.slice.design/static/sketch-assistant/CKoWvA61saJHnbT5EX6b.jpg" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Organization
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Organizer&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Slice Design
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      Organizer Assistant keeps your documents clean and organized with helpful tips and suggestions.
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="assistants-group" id="all">
+        <header class="directory-header assistants-group__header">
+  <div class="directory-header__title-wrapper"><h2 class="directory-header__title">
+      All Assistants
+    </h2></div></header>
+
+        <div class="row assistant-cells">
+          <!-- prettier-ignore -->
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="@sketch-hq/sketch-tidy-assistant/index.html">
+  <article class="
+    assistant-cell
+    assistant-cell--official">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://user-images.githubusercontent.com/1078571/81808057-0e01b200-9517-11ea-95ae-8759f54dba13.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Organization
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Tidy&nbsp;<!---
+        --><span class="assistant-cell__verified tooltip" data-tooltip="Verified" aria-label="Verified"></span></h3>
+      <p class="assistant-cell__author">
+        by Sketch
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      The rules in this Assistant are all focused on keeping your Sketch documents as clean and tidy as possible
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="@sketch-hq/sketch-naming-conventions-assistant/index.html">
+  <article class="
+    assistant-cell
+    assistant-cell--official">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://user-images.githubusercontent.com/1078571/81808046-0a6e2b00-9517-11ea-9b6c-1c6fa9a377ba.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Guidelines
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Naming Conventions&nbsp;<!---
+        --><span class="assistant-cell__verified tooltip" data-tooltip="Verified" aria-label="Verified"></span></h3>
+      <p class="assistant-cell__author">
+        by Sketch
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      Naming conventions used by the Sketch design team
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="@sketch-hq/sketch-reuse-suggestions-assistant/index.html">
+  <article class="
+    assistant-cell
+    assistant-cell--official">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://user-images.githubusercontent.com/1078571/81808051-0c37ee80-9517-11ea-9bf2-86fc3cf7edcb.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Organization
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Reuse Suggestions&nbsp;<!---
+        --><span class="assistant-cell__verified tooltip" data-tooltip="Verified" aria-label="Verified"></span></h3>
+      <p class="assistant-cell__author">
+        by Sketch
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      Notices when similar styles and groups could be abstracted into shared styles and symbols respectively
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="netural-guidelines-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://www.netural.com/images/favicon-96x96.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Guidelines
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Netural Guidelines Assistant&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Netural
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      A Sketch Assistant observing the guidelines defined by Netural UX team
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="@sketch2react/sketch2react-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://user-images.githubusercontent.com/6614632/89069314-38734680-d373-11ea-96f5-c8088f3533a2.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Guidelines
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Sketch2React Conventions&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Team Sketch2React
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      An assistant to help you with Sketch2React's framework's naming conventions and document structure
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="duplicates-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://raw.githubusercontent.com/oodesign/duplicates-assistant/main/assets/icon-sr.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Organization
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Duplicates&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by oodesign
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      Reports duplicate symbols, layer styles, and text styles in your design files.
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="lightning-design-system-linter/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://user-images.githubusercontent.com/7698220/91777276-456a9c00-eba4-11ea-92bd-e2b1315ab270.png" alt="" width="64" height="64" />
+      </div>
+      </div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Lightning Design System Linter&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Salesforce
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      A Sketch Assistant for the Salesforce Lightning Design System.
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="freeflow-ds-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://d1dab1g5p1tug5.cloudfront.net/attachments/c778dc3b930cb0b364ffbad056783fd1cd008034/store/ee224d81f88cf06dfdc8274ed502515bba07b447b77083e8dbab8c71119f/FF-Assistant-DS-icon.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Organization
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Document Stats &amp; Coverage&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Francesco Bertocci
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      See Coverage levels and Components usage across your document
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="chic-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://user-images.githubusercontent.com/3832/94002461-35f10400-fd9a-11ea-8624-9fdcb9491f10.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Organization
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Sans Chic&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Ale Muñoz
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      Because your Text Layers need *Style*, baby.
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="freeflow-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://d1dab1g5p1tug5.cloudfront.net/attachments/31c8383dfecacf40a62fafc6984cec85c1b7036c/store/7893300d9c929446c1c14731d8000fe5c656a017e67143025ca34e24d65b/FF-Assistant-icon.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Organization
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Artboard Status &amp; Navigator&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Francesco Bertocci
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      Keep track of the status of your artboards and quickly navigate to them
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="sketch-accessibility-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://i.imgur.com/ijYtOhk.png" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Accessibility
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Accessibility&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Yana Gevorgyan
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      Ensure your document is accessible and compliant with WCAG 2.1
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+          <div class="col span-4 assistant-cells__col">
+            <a class="assistant-cell-link " href="sketch-organizer-assistant/index.html">
+  <article class="
+    assistant-cell
+    ">
+
+    <div class="assistant-cell__top">
+      <div class="assistant-cell__icon">
+        
+          <img class="assistant-cell__icon__img" src="https://cdn.slice.design/static/sketch-assistant/CKoWvA61saJHnbT5EX6b.jpg" alt="" width="64" height="64" />
+      </div>
+      <div class="badge badge--small badge--indigo">
+          Organization
+        </div></div>
+
+    <header class="assistant-cell__header">
+      <h3 class="assistant-cell__name">
+        Organizer&nbsp;<!---
+        --></h3>
+      <p class="assistant-cell__author">
+        by Slice Design
+      </p>
+    </header>
+
+    <p class="assistant-cell__description">
+      Organizer Assistant keeps your documents clean and organized with helpful tips and suggestions.
+    </p>
+  </article>
+</a>
+
+          </div>
+          
+        </div>
+      </section>
+      <section class="pane pane--no-padding-top pane--no-padding-bottom pad-viewport extensions__create" id="create">
+      <div class="wrapper">
+        <div class="row center-v extensions__create__row">
+          <header class="col span-6 pane__heading extensions__create__header">
+            
+            <h2 class="pane__heading__title">Want to build your own Assistant?</h2>
+            <p class="pane__heading__lead">
+              From helping your team work together, to sharing best practices with the wider design community, you can
+              do amazing things with Assistants.
+            </p>
+            <div class="pane__heading__actions">
+              <a href="https://developer.sketch.com/assistants/" class="button button--primary pane__heading__action"
+                >Read the documentation</a
+              >
+            </div>
+            
+          </header>
+          <div class="col span-6 pane__visual extensions__create__visual reveal" data-reveal-delay="1200">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" class="extensions__create__visual__svg">
+  <defs>
+    <linearGradient id="dev-assistants-a" x1="100%" x2="0%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#FA6400" stop-opacity="0"></stop>
+      <stop offset="15.868%" stop-color="#FA6400" stop-opacity=".4"></stop>
+      <stop offset="85.664%" stop-color="#FA6400" stop-opacity=".4"></stop>
+      <stop offset="100%" stop-color="#FA6400" stop-opacity="0"></stop>
+      <stop offset="100%" stop-color="#FA6400" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="dev-assistants-b" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#FA6400" stop-opacity="0"></stop>
+      <stop offset="15.868%" stop-color="#FA6400" stop-opacity=".4"></stop>
+      <stop offset="85.664%" stop-color="#FA6400" stop-opacity=".4"></stop>
+      <stop offset="100%" stop-color="#FA6400" stop-opacity="0"></stop>
+      <stop offset="100%" stop-color="#FA6400" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="dev-assistants-c" x1="100%" x2="0%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#FA6400" stop-opacity="0"></stop>
+      <stop offset="15.868%" stop-color="#FA6400" stop-opacity=".4"></stop>
+      <stop offset="85.664%" stop-color="#FA6400" stop-opacity=".4"></stop>
+      <stop offset="100%" stop-color="#FA6400" stop-opacity="0"></stop>
+      <stop offset="100%" stop-color="#FA6400" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="dev-assistants-d" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-color="#FA6400" stop-opacity="0"></stop>
+      <stop offset="15.868%" stop-color="#FA6400" stop-opacity=".4"></stop>
+      <stop offset="85.664%" stop-color="#FA6400" stop-opacity=".4"></stop>
+      <stop offset="100%" stop-color="#FA6400" stop-opacity="0"></stop>
+      <stop offset="100%" stop-color="#FA6400" stop-opacity="0"></stop>
+    </linearGradient>
+    <linearGradient id="dev-assistants-e" x1="49.525%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBB7"></stop>
+      <stop offset="100%" stop-color="#FFF7D1"></stop>
+    </linearGradient>
+    <linearGradient id="dev-assistants-f" x1="103.09%" x2="0%" y1="45.975%" y2="53.414%">
+      <stop offset="0%" stop-color="#E64C4C"></stop>
+      <stop offset="100%" stop-color="#FB8332"></stop>
+    </linearGradient>
+    <linearGradient id="dev-assistants-g" x1="0%" x2="50%" y1="49.498%" y2="50.502%">
+      <stop offset="0%" stop-color="#FFEBB7"></stop>
+      <stop offset="100%" stop-color="#FFF7D1"></stop>
+    </linearGradient>
+    <linearGradient id="dev-assistants-h" x1="0%" x2="50%" y1="37.659%" y2="62.341%">
+      <stop offset="0%" stop-color="#FB8332"></stop>
+      <stop offset="100%" stop-color="#F8C332"></stop>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" opacity=".3">
+    <line x2="640" y1="98.25" y2="98.251" stroke="url(#dev-assistants-a)"></line>
+    <line x2="640" y1="22.25" y2="22.251" stroke="url(#dev-assistants-a)"></line>
+    <line x2="640" y1="382.25" y2="382.251" stroke="url(#dev-assistants-a)"></line>
+    <line x2="640" y1="458.25" y2="458.251" stroke="url(#dev-assistants-a)"></line>
+    <line x2="640" y1="355.25" y2="355.251" stroke="url(#dev-assistants-a)"></line>
+    <line x2="640" y1="324.25" y2="324.251" stroke="url(#dev-assistants-a)"></line>
+    <line x2="640" y1="300.25" y2="300.251" stroke="url(#dev-assistants-a)"></line>
+    <line x2="640" y1="275.25" y2="275.251" stroke="url(#dev-assistants-a)"></line>
+    <line x1="138.444" x2="138.445" y2="480" stroke="url(#dev-assistants-b)"></line>
+    <path stroke="#FA6400" stroke-opacity=".4" d="M320,437.555556 C399.160814,437.555556 463.333333,371.990144 463.333333,291.111111 C463.333333,210.232078 399.160814,144.666667 320,144.666667 C240.839186,144.666667 176.666667,210.232078 176.666667,291.111111 C176.666667,371.990144 240.839186,437.555556 320,437.555556 Z"></path>
+    <line x1="501.556" x2="501.557" y2="480" stroke="url(#dev-assistants-b)"></line>
+    <line x1="102" x2="102.001" y2="480" stroke="url(#dev-assistants-b)"></line>
+    <line x1="538" x2="538.001" y2="480" stroke="url(#dev-assistants-b)"></line>
+    <line x1="102" x2="538.001" y1="22" y2="458" stroke="url(#dev-assistants-c)"></line>
+    <line x1="538" x2="102" y1="22" y2="458" stroke="url(#dev-assistants-c)"></line>
+    <line x1="310.888" x2="310.889" y1="71.111" y2="409.333" stroke="url(#dev-assistants-d)"></line>
+    <line x1="330.110" x2="330.111" y1="71.111" y2="409.333" stroke="url(#dev-assistants-d)"></line>
+  </g>
+  <g fill="none" fill-rule="evenodd" transform="translate(157 117)">
+    <path fill="url(#dev-assistants-e)" d="M173.331638,184.228286 L173.332036,215.228571 L153.77907,215.228571 L153.778638,184.228286 L173.331638,184.228286 Z M173.332036,14.6142857 L173.333473,28.2374759 C170.101772,28.0137811 166.841281,27.9 163.555556,27.9 C160.26983,27.9 157.009339,28.0137811 153.777638,28.2374759 L153.77907,14.6142857 L173.332036,14.6142857 Z" style="mix-blend-mode:multiply"></path>
+    <path fill="url(#dev-assistants-f)" d="M163.55528,0 C171.571692,0 179.091283,2.80372874 185.58041,7.70780533 C186.16723,8.15128742 186.832529,8.70631264 187.576305,9.37288099 C188.811867,10.4802178 188.915843,12.379511 187.808525,13.6150897 C187.238669,14.2509517 186.42516,14.6142857 185.571312,14.6142857 C185.571312,14.6142857 185.571312,14.6142857 185.571312,14.6142857 C175.421528,14.6141272 160.757726,14.6139405 141.579905,14.6137255 C141.579905,14.6137255 141.579905,14.6137255 141.579905,14.6137255 C139.912685,14.6137068 138.561151,13.2621428 138.56117,11.594923 C138.56118,10.7360778 138.927008,9.91789406 139.567039,9.34520226 C140.311428,8.67918268 140.977528,8.12452802 141.565341,7.68123828 C148.046457,2.79360422 155.553355,0 163.55528,0 Z" style="mix-blend-mode:multiply"></path>
+    <rect width="327.111" height="32.771" y="206.371" fill="url(#dev-assistants-g)" rx="16.386" style="mix-blend-mode:multiply"></rect>
+    <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".4" stroke-width="1.2" d="M25.052381,215.007143 L319.392063,215.007143 C328.441644,215.007143 335.777778,222.343277 335.777778,231.392857 C335.777778,240.442437 328.441644,247.778571 319.392063,247.778571 L25.052381,247.778571 C16.0028008,247.778571 8.66666667,240.442437 8.66666667,231.392857 C8.66666667,222.343277 16.0028008,215.007143 25.052381,215.007143 Z"></path>
+    <path fill="url(#dev-assistants-h)" d="M163.555556,27.9 C237.98453,27.9 299.465132,86.2836835 306.666667,158.1 L307.824608,158.1 C315.039814,158.1 320.888894,163.94908 320.888894,171.164286 C320.888894,178.379491 315.039814,184.228571 307.824608,184.228571 L19.2865079,184.228571 C12.0713022,184.228571 6.22222222,178.379491 6.22222222,171.164286 C6.22222222,163.94908 12.0713022,158.1 19.2865079,158.1 L20.4444444,158.1 L20.4444444,158.1 C27.6459791,86.2836835 89.1265814,27.9 163.555556,27.9 Z" style="mix-blend-mode:multiply"></path>
+    <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".4" stroke-width="1.2" d="M172.222215,36.5357143 C246.651189,36.5357143 308.071187,94.9933474 315.272722,166.809664 L316.528173,166.809651 C323.722926,166.80958 329.555484,172.642021 329.555556,179.836774 C329.555556,179.836817 329.555556,179.83686 329.555556,179.836904 C329.555556,187.031728 323.722998,192.864286 316.528173,192.864286 L27.9162613,192.864286 C20.7214368,192.864286 14.8888791,187.031728 14.8888791,179.836904 C14.8888791,172.642151 20.7213786,166.809651 27.9161313,166.809651 C27.9161746,166.809651 27.916218,166.809651 27.9162613,166.809651 L29.1717076,166.809664 L29.1717076,166.809664 C36.3732423,94.9933474 97.7932408,36.5357143 172.222215,36.5357143 Z"></path>
+  </g>
+</svg>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  </div>
+</div>
+
+</main>
+
+
+  
+
+  <footer class="main-footer" id="footer" role="contentinfo"><div class="main-footer__footer pad-viewport">
+    <div class="wrapper"><section class="main-footer__nl">
+  <div class="main-footer__nl__text">
+    <h2 class="main-footer__nl__heading">
+      Subscribe to our newsletter
+    </h2>
+    <p class="main-footer__nl__blurb">
+      A monthly digest of the latest Sketch news, articles, and resources.
+    </p>
+  </div>
+  <form
+    action="https://api.sketchapp.com/1/newsletter/subscribe/"
+    data-controller="form"
+    data-action="form#process"
+    data-form-remote="true"
+    class="main-footer__nl__form"
+    method="POST"
+  >
+    <div class="input-group">
+      <!-- For screenreader purposes only -->
+      <label class="visuallyhidden" for="main-footer-nl-email">Email</label>
+      <input
+        type="email"
+        name="email"
+        required
+        autocomplete="email"
+        placeholder="Your email address"
+        aria-invalid="false"
+        aria-errormessage="main-footer-nl-error"
+        class="form-input"
+        id="main-footer-nl-email"
+      />
+      <button type="submit" class="button button--primary">
+        Subscribe
+      </button>
+    </div>
+    <p role="alert" data-target="form.error" class="visuallyhidden" id="main-footer-nl-error"></p>
+  </form>
+</section>
+
+<nav class="main-footer__nav">
+        
+
+<div class="main-footer__nav__group">
+  <h3 class="main-footer__nav__heading">
+    Product
+  </h3>
+  <ul class="main-footer__nav__items" id="footer-links-product"><li><a
+        class="main-footer__nav__item"
+        href="../../index.html"
+        
+      >Overview
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../for-designers/index.html"
+        
+      >For Designers
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../teams/index.html"
+        
+      >For Teams
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../pricing.html"
+        
+      >Pricing
+</a></li></ul>
+</div>
+
+        
+
+<div class="main-footer__nav__group">
+  <h3 class="main-footer__nav__heading">
+    Apps
+  </h3>
+  <ul class="main-footer__nav__items" id="footer-links-apps"><li><a
+        class="main-footer__nav__item"
+        href="../../downloads/mac/index.html"
+        
+      >Mac Download
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" stroke="#000" class="main-footer__nav__item__action main-footer__nav__item__action--icon">
+  <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.253 9.25l3.997 4 4.003-4M8.25 2.75v10.5"></path>
+</svg>
+
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../updates.html"
+        
+      >Mac Releases
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../beta.html"
+        
+      >Mac Beta
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../mirror/download.html"
+        
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        
+      >Get Mirror
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" stroke="#000" class="main-footer__nav__item__action main-footer__nav__item__action--icon">
+  <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.252 10.25l-.002-5.5h-5.5m-2 7.5l7-7"></path>
+</svg>
+
+</a></li></ul>
+</div>
+
+        
+
+<div class="main-footer__nav__group">
+  <h3 class="main-footer__nav__heading">
+    Resources
+  </h3>
+  <ul class="main-footer__nav__items" id="footer-links-resources"><li><a
+        class="main-footer__nav__item"
+        href="../../support.html"
+        
+      >Get Help
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../extensions.html"
+        
+      >Extensions
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../community.html"
+        
+      >Events & Meetups
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../blog/index.html"
+        
+      >Blog
+</a></li></ul>
+</div>
+
+        
+
+<div class="main-footer__nav__group">
+  <h3 class="main-footer__nav__heading">
+    Company
+  </h3>
+  <ul class="main-footer__nav__items" id="footer-links-company"><li><a
+        class="main-footer__nav__item"
+        href="../../press/index.html"
+        
+      >About Us
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../careers/index.html"
+        
+      >Careers
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../press/index.html"
+        
+      >Press
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../labs/index.html"
+        
+      >Labs
+</a></li></ul>
+</div>
+
+        
+
+<div class="main-footer__nav__group">
+  <h3 class="main-footer__nav__heading">
+    Follow Us
+  </h3>
+  <ul class="main-footer__nav__items" id="footer-links-social"><li><a
+        class="main-footer__nav__item"
+        href="https://twitter.com/sketch"
+        
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        
+      ><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 20 20" width="20" fill="#000" class="main-footer__nav__item__icon"><path d="m19.960835 3.9053673c-.7374693.31906496-1.5249365.53642283-2.3540686.63566925.8449648-.50115343 1.4949377-1.29102373 1.8024249-2.23345466-.792467.45522121-1.6707637.78658943-2.6057248.97113857-.7466355-.78658943-1.8107579-1.27872046-2.9923753-1.27872046-2.2640723 0-4.09982917 1.8069411-4.09982917 4.03301379 0 .31988517.03749844.62746706.10582892.92192546-3.40819132-.15830215-6.42889879-1.76921105-8.45048123-4.20443943-.3558185.59219767-.55497687 1.2803609-.55497687 2.0300405 0 1.40257343.72496979 2.63536166 1.82325736 3.3596145-.67247198-.02132568-1.30494562-.20341416-1.85658931-.50525453v.05003332c0 1.95622085 1.41077456 3.58763519 3.28819633 3.95919409-.34415233.0910443-.70747052.1402574-1.079955.1402574-.26165577 0-.51247865-.0246066-.76330153-.0705388.52581142 1.6018865 2.03741511 2.7698775 3.83650681 2.8026862-1.39994167 1.0818681-3.17403441 1.7265597-5.08478813 1.7265597-.32498646 0-.64913962-.018865-.97495938-.0549546 1.82409066 1.1433844 3.97316778 1.8118624 6.29723762 1.8118624 7.54468568 0 11.66534728-6.148357 11.66534728-11.47157431 0-.17142564 0-.34449172-.0124995-.51673758.8008-.56513046 1.4999375-1.27954068 2.0499146-2.08991644z" fill-rule="evenodd"></path></svg>
+
+Twitter
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="https://www.facebook.com/sketchapp"
+        
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        
+      ><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 20 20" width="20" fill="#000" class="main-footer__nav__item__icon"><path d="m19 10c0-4.97056641-4.0294336-9-9-9-4.97056641 0-9 4.02943359-9 9 0 4.4921602 3.29116992 8.2154883 7.59375 8.8906641v-6.2891016h-2.28515625v-2.6015625h2.28515625v-1.9828125c0-2.255625 1.34363672-3.5015625 3.3994336-3.5015625.9846738 0 2.0146289.17578125 2.0146289.17578125v2.21484375h-1.1348789c-1.1180215 0-1.4666836.69375586-1.4666836 1.40549414v1.68825586h2.4960938l-.3990235 2.6015625h-2.0970703v6.2891016c4.3025801-.6751758 7.59375-4.3985039 7.59375-8.8906641" fill-rule="evenodd"></path></svg>
+
+Facebook
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="https://www.instagram.com/sketchformac/"
+        
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        
+      ><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 20 20" width="20" fill="#000" class="main-footer__nav__item__icon"><path d="m10 1c-2.445 0-2.75025.01125-3.71025.054-.9585.045-1.611.19575-2.18475.4185-.59175.2295-1.09425.53775-1.5945 1.038s-.80925 1.002-1.038 1.5945c-.22275.57375-.37425 1.22625-.4185 2.18475-.045.96-.054 1.26525-.054 3.71025s.01125 2.75025.054 3.71025c.045.95775.19575 1.611.4185 2.18475.2295.591.53775 1.09425 1.038 1.5945.50025.4995 1.002.80925 1.5945 1.038.5745.222 1.227.37425 2.18475.4185.96.045 1.26525.054 3.71025.054s2.75025-.01125 3.71025-.054c.95775-.045 1.611-.1965 2.18475-.4185.591-.2295 1.09425-.5385 1.5945-1.038.4995-.50025.80925-1.00125 1.038-1.5945.222-.57375.37425-1.227.4185-2.18475.045-.96.054-1.26525.054-3.71025s-.01125-2.75025-.054-3.71025c-.045-.95775-.1965-1.61175-.4185-2.18475-.2295-.59175-.5385-1.09425-1.038-1.5945-.50025-.50025-1.00125-.80925-1.5945-1.038-.57375-.22275-1.227-.37425-2.18475-.4185-.96-.045-1.26525-.054-3.71025-.054zm3.6375 1.67325c.8775.04125 1.35375.18675 1.67025.31125.4215.16275.72.35775 1.0365.672.31425.315.50925.61425.672 1.03575.123.3165.27.79275.30975 1.67025.04275.9495.0525 1.2345.0525 3.6375s-.01125 2.68875-.0555 3.6375c-.04575.8775-.192 1.35375-.31575 1.67025-.168.4215-.35925.72-.67425 1.0365-.31425.31425-.618.50925-1.035.672-.315.123-.79875.27-1.67625.30975-.9555.04275-1.23675.0525-3.64425.0525-2.40825 0-2.6895-.01125-3.64425-.0555-.87825-.04575-1.362-.192-1.677-.31575-.42675-.168-.72-.35925-1.03425-.67425-.31575-.31425-.5175-.618-.675-1.035-.12375-.315-.26925-.79875-.315-1.67625-.03375-.945-.04575-1.23675-.04575-3.633 0-2.397.012-2.6895.04575-3.64575.04575-.8775.19125-1.3605.315-1.6755.1575-.4275.35925-.72.675-1.03575.31425-.31425.6075-.51675 1.03425-.6735.315-.1245.78825-.27075 1.66575-.31575.95625-.03375 1.2375-.045 3.64425-.045l.03375.0225c2.40225 0 2.68875.012 3.6375.05325zm-3.6375 2.70525c-2.55375 0-4.6215 2.07-4.6215 4.6215 0 2.55375 2.07 4.6215 4.6215 4.6215 2.55375 0 4.6215-2.07 4.6215-4.6215 0-2.55375-2.07-4.6215-4.6215-4.6215zm0 7.6215c-1.6575 0-3-1.3425-3-3s1.3425-3 3-3 3 1.3425 3 3-1.3425 3-3 3zm5.8845-7.80375c0 .59625-.4845 1.08-1.08 1.08-.59625 0-1.08-.4845-1.08-1.08s.4845-1.07925087 1.08-1.07925087c.59475-.00074913 1.08.48375087 1.08 1.07925087z"></path></svg>
+
+Instagram
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="https://dribbble.com/sketch"
+        
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        
+      ><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 20 20" width="20" fill="#000" class="main-footer__nav__item__icon"><path d="m10 19c-4.96125 0-9-4.03875-9-9s4.03875-9 9-9 9 4.03875 9 9-4.03875 9-9 9zm7.59-7.7685c-.2625-.0825-2.3775-.71475-4.788-.3285 1.005 2.763 1.41525 5.013 1.494 5.481 1.725-1.16625 2.952-3.015 3.29625-5.1525zm-4.58625 5.856c-.11475-.675-.5625-3.024-1.6425-5.8275l-.0495.015c-4.3425 1.51125-5.895 4.51875-6.03 4.8 1.2975 1.0185 2.94 1.6245 4.7175 1.6245 1.065 0 2.0775-.2175 3-.6105zm-8.715-1.935c.174-.3 2.28375-3.79125 6.249-5.07375.10125-.03375.2025-.063.30375-.09-.195-.43875-.405-.87525-.624-1.305-3.84 1.1475-7.563 1.09875-7.9005 1.09125l-.003.234c0 1.97475.7485 3.77775 1.9755 5.14125zm-1.815-6.71625c.345.006 3.51225.0195 7.10775-.936-1.2735-2.2635-2.6475-4.1685-2.85-4.446-2.151 1.0125-3.7575 2.9925-4.257 5.3775zm5.72625-5.89725c.2115.285 1.60875 2.1855 2.8665 4.5 2.73375-1.02375 3.8925-2.58 4.02975-2.7765-1.3575-1.2075-3.1425-1.9395-5.09625-1.9395-.61875 0-1.2225.075-1.8.21375zm7.75125 2.61225c-.1635.2175-1.45125 1.86975-4.293 3.03.18.3675.3525.73875.51 1.1145.06.135.1125.27.165.3975 2.5575-.3225 5.1.195 5.355.2475-.015-1.815-.66-3.48-1.7325-4.785z"></path></svg>
+
+Dribbble
+</a></li></ul>
+</div>
+
+        
+
+<div class="main-footer__nav__group">
+  <h3 class="main-footer__nav__heading">
+    More
+  </h3>
+  <ul class="main-footer__nav__items" id="footer-links-more"><li><div class="main-footer__subnav js-toggleable">
+        <button
+          class="main-footer__subnav__toggle main-footer__nav__item js-toggleable-toggle"
+          id="manage-license"
+        >
+          Manage License
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke="#000" class="main-footer__nav__item__action main-footer__nav__item__action--icon">
+  <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 7L8 11.25l4.249-4.249"></path>
+</svg>
+
+        </button>
+        <ul class="main-footer__subnav__items" aria-labelledby="manage-license">
+          
+          <li>
+            <a
+              class="main-footer__nav__item"
+              href="../../store/renew.html"
+              
+            >
+              Renew License
+              <!--  -->
+            </a>
+          </li>
+          
+          <li>
+            <a
+              class="main-footer__nav__item"
+              href="../../store/add-seats.html"
+              
+            >
+              Add Devices
+              <!--  -->
+            </a>
+          </li>
+          
+          <li>
+            <a
+              class="main-footer__nav__item"
+              href="../../support/license-manager/index.html"
+              
+            >
+              License Manager
+              <!--  -->
+            </a>
+          </li>
+          
+        </ul>
+      </div></li><li><a
+        class="main-footer__nav__item"
+        href="https://developer.sketch.com"
+        
+        target="_blank"
+        rel="nofollow noopener noreferrer"
+        
+      >Developer Platform
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" stroke="#000" class="main-footer__nav__item__action main-footer__nav__item__action--icon">
+  <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11.252 10.25l-.002-5.5h-5.5m-2 7.5l7-7"></path>
+</svg>
+
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="../../legal.html"
+        
+      >Terms & Policies
+</a></li><li><a
+        class="main-footer__nav__item"
+        href="https://status.sketch.com"
+        
+      >Status
+</a></li></ul>
+</div>
+
+        
+      </nav>
+
+      <p class="main-footer__notice">&copy;
+        2021
+        Sketch B.V.</p>
+
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="img.misc.duplicate.symbol.24-a" d="M9.61302135,4.22297391 L3.50905182,11.6833811 C3.35835669,11.867564 3.35835669,12.132436 3.50905182,12.3166189 L9.61302135,19.7770261 C9.78788514,19.9907485 10.1028965,20.0222496 10.3166189,19.8473858 C10.3423533,19.8263304 10.3659232,19.8027605 10.3869786,19.7770261 L16.4909482,12.3166189 C16.6416433,12.132436 16.6416433,11.867564 16.4909482,11.6833811 L10.3869786,4.22297391 C10.2121149,4.0092515 9.89710351,3.97775036 9.6833811,4.15261415 C9.6576467,4.17366957 9.63407677,4.1972395 9.61302135,4.22297391 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.68,20.033183 L20.9935524,12.3166189 C21.1442476,12.132436 21.1442476,11.867564 20.9935524,11.6833811 L14.68,3.966817" opacity=".5"/>
+    <mask id="img.misc.duplicate.symbol.24-b" fill="#fff">
+      <use xlink:href="#img.misc.duplicate.symbol.24-a"/>
+    </mask>
+    <use stroke="#000" stroke-linejoin="round" stroke-width="1.5" xlink:href="#img.misc.duplicate.symbol.24-a"/>
+    <rect width="7" height="16" x="10" y="4" fill="#000" fill-opacity=".2" mask="url(#img.misc.duplicate.symbol.24-b)"/>
+  </g>
+</svg>

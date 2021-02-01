@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mac/Monochrome/17x17/img.symbol.17</title>
+    <defs>
+        <path d="M5.36363687,0.970355111 L0.260696549,7.18263029 C0.109180719,7.36708434 0.109180719,7.63291566 0.260696549,7.81736971 L5.36363687,14.0296449 C5.53891532,14.2430274 5.85398725,14.2739168 6.06736971,14.0986383 C6.09256181,14.0779448 6.11566961,14.054837 6.13636313,14.0296449 L11.2393035,7.81736971 C11.3908193,7.63291566 11.3908193,7.36708434 11.2393035,7.18263029 L6.13636313,0.970355111 C5.96108468,0.756972648 5.64601275,0.726083244 5.43263029,0.901361696 C5.40743819,0.922055208 5.38433039,0.945163009 5.36363687,0.970355111 Z" id="path-1"></path>
+    </defs>
+    <g id="Mac/Monochrome/17x17/img.symbol.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gem" transform="translate(2.750000, 1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" stroke="#000000" stroke-linejoin="round" xlink:href="#path-1"></use>
+            <rect id="Rectangle" fill-opacity="0.35" fill="#000000" mask="url(#mask-2)" x="5.75" y="0" width="7" height="15"></rect>
+        </g>
+    </g>
+</svg>

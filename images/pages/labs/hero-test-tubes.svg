@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="567" height="355"
+  viewBox="0 0 567 355">
+  <defs>
+    <linearGradient id="test-tubes-a" x1="48%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBB7" />
+      <stop offset="100%" stop-color="#FFF7D1" />
+    </linearGradient>
+    <linearGradient id="test-tubes-b" x1="42%" x2="7%" y1="45%" y2="54%">
+      <stop offset="0%" stop-color="#E64C4C" />
+      <stop offset="100%" stop-color="#FB8332" />
+    </linearGradient>
+    <linearGradient id="test-tubes-c" x1="49%" x2="49%" y1="-3%" y2="103%">
+      <stop offset="0%" stop-color="#E64C4C" />
+      <stop offset="100%" stop-color="#FB8332" />
+    </linearGradient>
+    <linearGradient id="test-tubes-e" x1="4%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFEBB7" />
+      <stop offset="100%" stop-color="#FFF7D1" />
+    </linearGradient>
+    <linearGradient id="test-tubes-f" x1="42%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FB8332" />
+      <stop offset="100%" stop-color="#F8C332" />
+    </linearGradient>
+  </defs>
+
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(327 1)">
+      <rect width="52.9" height="297.903" x="20.125" y="46.097" fill="url(#test-tubes-a)" fill-opacity=".5" rx="26.45"
+        style="mix-blend-mode:multiply" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-opacity=".4" stroke-width="1.5"
+        d="M73.025,316.674921 C73.025,331.447911 61.1829316,343.423786 46.575,343.423786 C31.9670684,343.423786 20.125,331.447911 20.125,316.674921 L20.125,68.5695142" />
+      <rect width="92" height="25.93" y="43.216" fill="url(#test-tubes-b)" rx="12.965" />
+      <path fill="url(#test-tubes-c)"
+        d="M28.175,142.901173 L63.825,142.901173 L63.825,314.650712 C63.825,324.495188 55.8444757,332.475712 46,332.475712 C36.1555243,332.475712 28.175,324.495188 28.175,314.650712 L28.175,142.901173 L28.175,142.901173 Z" />
+    </g>
+
+    <g transform="translate(188 23)">
+      <rect width="52.9" height="297.414" x="19.55" y="23.586" fill="url(#test-tubes-a)" fill-opacity=".5" rx="26.45"
+        style="mix-blend-mode:multiply" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-opacity=".4" stroke-width="1.5"
+        d="M72.45,293.719763 C72.45,308.46851 60.6079316,320.424731 46,320.424731 C31.3920684,320.424731 19.55,308.46851 19.55,293.719763 L19.55,46.0215054" />
+      <rect width="92" height="25.887" y="20.71" fill="url(#test-tubes-b)" rx="12.944" />
+      <path fill="url(#test-tubes-f)"
+        d="M28.175,214.575269 L63.825,214.575269 L63.825,291.669624 C63.825,301.514099 55.8444757,309.494624 46,309.494624 C36.1555243,309.494624 28.175,301.514099 28.175,291.669624 L28.175,214.575269 L28.175,214.575269 Z" />
+    </g>
+
+    <g transform="translate(1 35)">
+      <g transform="translate(0 66.749)">
+        <path fill="url(#test-tubes-a)" fill-opacity=".5"
+          d="M75.5,0 C90.2544995,0 102.217074,7.30875284 102.217074,22.055767 L102.217074,96.1889088 C130.728386,106.97301 151,134.515211 151,166.7897 C151,208.466044 117.197499,242.251397 75.5,242.251397 C33.8025014,242.251397 0,208.466044 0,166.7897 C0,134.514919 20.271981,106.972512 48.7836998,96.1886161 L48.7836998,23.043632"
+          style="mix-blend-mode:multiply" />
+        <path stroke="#FA6400" stroke-linecap="round" stroke-opacity=".4" stroke-width="1.5"
+          d="M138.896947,207.47875 C134.748186,213.952049 129.638681,219.749381 123.769919,224.669052 C110.6775,235.644179 93.806443,242.251397 75.3937659,242.251397 C33.7549388,242.251397 0,208.461902 0,166.780449 C0,134.501712 20.2434568,106.955928 48.7150575,96.1707106 L48.7150575,23.0167598" />
+      </g>
+      <rect width="92.214" height="25.894" x="29.969" y="66.173" fill="url(#test-tubes-b)" rx="12.947" />
+      <path fill="url(#test-tubes-f)"
+        d="M10.9503817,232.469274 C10.9503817,268.380124 40.1082646,297.49162 76.0763359,297.49162 C112.044407,297.49162 141.20229,268.380124 141.20229,232.469274" />
+    </g>
+
+    <g transform="translate(475 13)">
+      <rect width="52.9" height="298.511" x="20.125" y="33.489" fill="url(#test-tubes-a)" fill-opacity=".5" rx="26.45"
+        style="mix-blend-mode:multiply" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-opacity=".4" stroke-width="1.5"
+        d="M73.025,304.619111 C73.025,319.422274 61.1829316,331.422609 46.575,331.422609 C31.9670684,331.422609 20.125,319.422274 20.125,304.619111 L20.125,56.0069565" />
+      <rect width="92" height="25.983" y="30.602" fill="url(#test-tubes-b)" rx="12.991" />
+      <path fill="url(#test-tubes-f)"
+        d="M28.175,225.182609 L63.825,225.182609 L63.825,302.627174 C63.825,312.47165 55.8444757,320.452174 46,320.452174 C36.1555243,320.452174 28.175,312.47165 28.175,302.627174 L28.175,225.182609 L28.175,225.182609 Z" />
+    </g>
+  </g>
+</svg>

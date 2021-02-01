@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <path id="img.insert.pencil.24-a" d="M5.03281332,18.3243258 L6.3039293,14.8844398 L6.3039293,14.8844398 L6.73956791,14.4490622 L10.2246768,10.9660415 L15.7885756,5.40547633 C16.5636528,4.63086355 17.8199247,4.63124002 18.5945375,5.4063172 C18.5955085,5.40728872 18.5964784,5.40826123 18.5974473,5.40923476 C19.3725265,6.18800659 19.3708415,7.447251 18.593681,8.22394585 L13.0297822,13.784511 L13.0297822,13.784511 L9.54467334,17.2675317 L9.10903473,17.7029093 L5.6745017,18.9668668 C5.41535123,19.0622379 5.12795472,18.9294684 5.03258362,18.670318 C4.99148267,18.558635 4.99156412,18.4359541 5.03281332,18.3243258 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="img.insert.pencil.24-b" fill="#fff">
+      <use xlink:href="#img.insert.pencil.24-a"/>
+    </mask>
+    <use fill-rule="nonzero" stroke="#000" stroke-linejoin="round" stroke-width="1.5" xlink:href="#img.insert.pencil.24-a"/>
+    <polygon fill="#000" fill-rule="nonzero" points="3.5 13.5 10.5 20.5 3.5 20.5" mask="url(#img.insert.pencil.24-b)"/>
+    <path fill="#000" fill-opacity=".2" fill-rule="nonzero" stroke="#000" stroke-width="1.5" d="M13,5 C17,2.66666667 19.6666667,2.16666667 21,3.5 C22.3333333,4.83333333 21.6666667,7.33333333 19,11 L13,5 Z" mask="url(#img.insert.pencil.24-b)"/>
+  </g>
+</svg>

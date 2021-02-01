@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="88">
+  <g fill="none" fill-rule="evenodd">
+    <path fill="#FFF" d="M8 8h148v72H8z" />
+    <path fill="#000"
+      d="M148 0v4h4v4h4v4h4v4h4v56h-4v4h-4v4h-4v4h-4v4H16v-4h-4v-4H8v-4H4v-4H0V16h4v-4h4V8h4V4h4V0h132zm-4 8H20v4h-4v4h-4v4H8v48h4v4h4v4h4v4h124v-4h4v-4h4v-4h4V20h-4v-4h-4v-4h-4V8zm-4 64v4H24v-4h116zM24 68v4h-4v-4h4zm120 0v4h-4v-4h4zM20 64v4h-4v-4h4zm128 0v4h-4v-4h4zM16 24v40h-4V24h4zm136 0v40h-4V24h4zM20 20v4h-4v-4h4zm128 0v4h-4v-4h4zM24 16v4h-4v-4h4zm120 0v4h-4v-4h4zm-4-4v4H24v-4h116z" />
+  </g>
+</svg>

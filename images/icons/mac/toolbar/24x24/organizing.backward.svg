@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g fill="none" fill-rule="evenodd">
+    <path stroke="#000" stroke-linejoin="round" stroke-width="1.5" d="M5.25,9.75 L18.75,9.75 C19.5784271,9.75 20.25,10.4215729 20.25,11.25 L20.25,11.75 C20.25,12.5784271 19.5784271,13.25 18.75,13.25 L5.25,13.25 C4.42157288,13.25 3.75,12.5784271 3.75,11.75 L3.75,11.25 C3.75,10.4215729 4.42157288,9.75 5.25,9.75 Z" opacity=".5"/>
+    <path fill="#000" fill-opacity=".2" stroke="#000" stroke-linejoin="round" stroke-width="1.5" d="M5.25,3.75 L18.75,3.75 C19.5784271,3.75 20.25,4.42157288 20.25,5.25 L20.25,5.75 C20.25,6.57842712 19.5784271,7.25 18.75,7.25 L5.25,7.25 C4.42157288,7.25 3.75,6.57842712 3.75,5.75 L3.75,5.25 C3.75,4.42157288 4.42157288,3.75 5.25,3.75 Z"/>
+    <line x1="12" x2="12" y1="8" y2="9" stroke="#000" stroke-width="1.5"/>
+    <line x1="12" x2="12" y1="14" y2="19.5" stroke="#000" stroke-width="1.5"/>
+    <polygon fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" points="9.75 20.25 12 17.75 14.25 20.25" transform="matrix(1 0 0 -1 0 38)"/>
+  </g>
+</svg>

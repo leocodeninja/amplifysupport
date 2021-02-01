@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="images/components/icons/favicon@2x.png">
+  <title>Redirecting…</title>
+  <style type="text/css">
+    html { display: table; height: 100%; width: 100%; }
+    body { height: 100%; background-color: #061524; color: #fff; display: table-cell; vertical-align: middle; text-align: center; font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    a, a:visited { color: #fff; }
+    h2 { font-weight: 400; }
+  </style>
+</head>
+<body onload="document.forms['post-redirect'].submit()">
+  <form name="post-redirect" class="post-redirect" method="POST" action="https://sites.fastspring.com/bohemian/api/order">
+    
+<input type="hidden" name="operation" value="create"/>
+<input type="hidden" name="destination" value="contents"/>
+<input type="hidden" name="product_1_path" value="/sketch">
+
+  </form>
+</body>
+</html>

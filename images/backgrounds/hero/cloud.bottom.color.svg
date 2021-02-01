@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1890" height="1444">
+  <defs>
+    <linearGradient id="c" x1="25.376%" x2="76.249%" y1="74.507%" y2="19.732%">
+      <stop offset="0%" stop-color="#E64C4C" />
+      <stop offset="100%" stop-color="#FB8332" />
+    </linearGradient>
+    <linearGradient id="d" x1="0%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FB8332" />
+      <stop offset="100%" stop-color="#F8C332" />
+    </linearGradient>
+    <linearGradient id="e" x1="0%" x2="50%" y1=".394%" y2="99.606%">
+      <stop offset="0%" stop-color="#E64C4C" />
+      <stop offset="100%" stop-color="#FB8332" />
+    </linearGradient>
+    <path id="a" d="M0 0h1890v1444H0z" />
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a" />
+    </mask>
+    <g mask="url(#b)">
+      <g transform="translate(1 1)">
+        <circle cx="333.722" cy="1347.724" r="330.724" fill="url(#c)" />
+        <circle cx="330.724" cy="1367.708" r="330.724" stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round"
+          opacity=".398" />
+        <circle cx="701.348" cy="1398.345" r="173.356" fill="#F8C332" opacity=".603" />
+        <circle cx="692.356" cy="1385.356" r="173.356" stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round"
+          opacity=".398" />
+        <circle cx="1258.285" cy="1335.299" r="236.303" fill="url(#d)" />
+        <circle cx="1236.303" cy="1330.303" r="236.303" stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round"
+          opacity=".398" />
+        <ellipse cx="1656.5" cy="1167" fill="url(#e)" rx="126.5" ry="126" />
+        <ellipse cx="1672.5" cy="1184" stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".398"
+          rx="126.5" ry="126" />
+        <ellipse cx="1502.318" cy="1393.818" fill="#F7B500" opacity=".4" rx="203.331" ry="202.831"
+          style="mix-blend-mode:screen" />
+        <ellipse cx="1487.331" cy="1377.831" stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round"
+          opacity=".398" rx="203.331" ry="202.831" />
+        <circle cx="1287.5" cy="498.5" r="498.5" stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="1.918" opacity=".2" />
+      </g>
+    </g>
+  </g>
+</svg>

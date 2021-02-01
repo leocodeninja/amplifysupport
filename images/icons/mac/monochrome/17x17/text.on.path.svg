@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mac/Monochrome/17x17/img.text.on.path.17</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="13" height="3"></rect>
+    </defs>
+    <g id="Mac/Monochrome/17x17/img.text.on.path.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(1.000000, 9.000000)">
+            <g id="Group" transform="translate(1.000000, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle"></g>
+                <circle id="Oval" stroke="#000000" mask="url(#mask-2)" cx="6.5" cy="8.5" r="8"></circle>
+            </g>
+            <circle id="Oval" stroke="#000000" cx="1.5" cy="3.5" r="1"></circle>
+            <circle id="Oval-Copy" stroke="#000000" cx="13.5" cy="3.5" r="1"></circle>
+        </g>
+        <path d="M10.2852282,8 C10.5554444,8 10.75,7.81753555 10.75,7.55687204 C10.75,7.47122546 10.7319856,7.38557888 10.688751,7.26269465 L9.17554043,3.01760325 C9.04583667,2.6563981 8.8368695,2.5 8.49459568,2.5 C8.15592474,2.5 7.94695757,2.66384563 7.82085669,3.02132701 L6.311249,7.26269465 C6.26801441,7.37813135 6.25,7.48239675 6.25,7.55687204 C6.25,7.82870684 6.433747,8 6.7183747,8 C6.95976781,8 7.09667734,7.87711578 7.18314652,7.58666215 L7.52542034,6.56635071 L9.4673739,6.56635071 L9.80964772,7.59410968 C9.89251401,7.88083954 10.0330264,8 10.2852282,8 Z M9.24039231,5.80670278 L7.74519616,5.80670278 L8.47658127,3.51286391 L8.50180144,3.51286391 L9.24039231,5.80670278 Z" id="A" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

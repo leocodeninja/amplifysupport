@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mac/Monochrome/17x17/img.vector.round.full.17</title>
+    <g id="Mac/Monochrome/17x17/img.vector.round.full.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 2.000000)">
+            <path d="M10.0854606,0.999695167 C10.0301162,1.15617076 10,1.32456837 10,1.5 C10,2.32842712 10.6715729,3 11.5,3 C11.6755804,3 11.8441149,2.96983268 12.000703,2.91439849 L12.000703,10.0856015 C11.8441149,10.0301673 11.6755804,10 11.5,10 C10.6715729,10 10,10.6715729 10,11.5 C10,11.6755804 10.0301673,11.8441149 10.0856015,12.000703 L2.91439849,12.000703 C2.96983268,11.8441149 3,11.6755804 3,11.5 C3,10.6715729 2.32842712,10 1.5,10 C1.32456837,10 1.15617076,10.0301162 0.999695167,10.0854606 L0.999695167,2.91453937 C1.15617076,2.96988379 1.32456837,3 1.5,3 C2.32842712,3 3,2.32842712 3,1.5 C3,1.32456837 2.96988379,1.15617076 2.91453937,0.999695167 Z" id="Combined-Shape" fill-opacity="0.2" fill="#000000"></path>
+            <rect id="Rectangle-3" stroke="#000000" x="0.5" y="0.5" width="2" height="2" rx="1"></rect>
+            <rect id="Rectangle-3" stroke="#000000" x="10.5" y="0.5" width="2" height="2" rx="1"></rect>
+            <rect id="Rectangle-3" stroke="#000000" x="10.5" y="10.5" width="2" height="2" rx="1"></rect>
+            <rect id="Rectangle-3" stroke="#000000" x="0.5" y="10.5" width="2" height="2" rx="1"></rect>
+        </g>
+    </g>
+</svg>

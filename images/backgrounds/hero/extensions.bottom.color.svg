@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2181" height="1437">
+  <defs>
+    <linearGradient id="c" x1="0%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#E64C4C" />
+      <stop offset="100%" stop-color="#FB8332" />
+    </linearGradient>
+    <linearGradient id="d" x1="0%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FB8332" />
+      <stop offset="100%" stop-color="#F8C332" />
+    </linearGradient>
+    <path id="a" d="M.439.558h2180v1437H.439z" />
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(.559 -.558)">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a" />
+    </mask>
+    <g mask="url(#b)">
+      <path fill="url(#c)" d="M342.947 911.112l342.947 342.946-342.947 342.947L0 1254.058z"
+        transform="translate(103 1)" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".4"
+        d="M465.447 897.177l356.382 356.381-356.382 356.382-356.382-356.382z" />
+      <path fill="url(#c)" d="M1822.447 860l254.558 254.558-254.558 254.559-254.559-254.559z"
+        transform="translate(103 1)" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".4"
+        d="M1898.447 861l254.558 254.558-254.558 254.559-254.559-254.559z" />
+      <path fill="#F8C332" opacity=".603" style="mix-blend-mode:screen"
+        d="M662.398 1046.725L936.28 988.51l58.215 273.881-273.881 58.216z" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".4"
+        d="M672.398 1032.725L946.28 974.51l58.215 273.881-273.881 58.216z" />
+      <path fill="url(#d)" d="M977.773 1179.119l263.114 95.765-95.766 263.114-263.114-95.765z"
+        transform="translate(103 1)" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".4"
+        d="M1070.773 1162.119l263.114 95.765-95.766 263.114-263.114-95.765z" />
+      <path fill="#F8C332" opacity=".603" style="mix-blend-mode:screen"
+        d="M1564.293 1069.712l240 415.693-415.692 240-240-415.693z" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.746" opacity=".4"
+        d="M1534.953 1058.176l243 420.889-420.888 243-243-420.889z" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".4"
+        d="M1404.939 1.305l502.753 502.753-502.753 502.753-502.753-502.753z" />
+    </g>
+  </g>
+</svg>

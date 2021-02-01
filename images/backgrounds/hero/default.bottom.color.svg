@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2376" height="1227">
+  <defs>
+    <linearGradient id="c" x1="0%" x2="50%" y1="32.923%" y2="67.077%">
+      <stop offset="0%" stop-color="#E64C4C" />
+      <stop offset="100%" stop-color="#FB8332" />
+    </linearGradient>
+    <linearGradient id="d" x1="5.017%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FB8332" />
+      <stop offset="100%" stop-color="#F8C332" />
+    </linearGradient>
+    <path id="a" d="M0 0h2376v1227H0z" />
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a" />
+    </mask>
+    <g mask="url(#b)">
+      <path fill="url(#c)" d="M565.281 636.474L63 1221.474l1001-315.686z" transform="translate(-22 1)" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".4"
+        d="M511.915 646.474l-533.915 606 1078-315.731z" />
+      <path fill="url(#d)" d="M1545.963 1409.25l-24.824-567.925-513.858 300.419z" transform="translate(-22 1)" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".4"
+        d="M1549.742 1414.165l-24.927-568.974-514.728 300.918zM1336.578 1L904.036 683.062l1015.336-480.48z" />
+      <path fill="#F7B500" opacity=".295" style="mix-blend-mode:screen"
+        d="M2280.659 845.671l-683.36-117.062 323.725 438.819z" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".398"
+        d="M2245.541 833.976l-683.36-117.061 323.726 438.818z" />
+      <path fill="#F7B500" opacity=".4" style="mix-blend-mode:screen"
+        d="M1378.375 1351.973l-451.198-336.274 72.624 436.142z" />
+      <path stroke="#FA6400" stroke-linecap="round" stroke-linejoin="round" opacity=".398"
+        d="M1357.375 1329.973L906.177 993.699l72.624 436.142z" />
+    </g>
+  </g>
+</svg>

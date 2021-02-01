@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mac/Monochrome/17x17/img.vector.point.disconnected.17</title>
+    <defs>
+        <path d="M17,0 L17,11 L0,11 L0,0 L6.04991252,0.000475806803 C6.01718135,0.161883275 6,0.328935178 6,0.5 C6,1.88071187 7.11928813,3 8.5,3 C9.88071187,3 11,1.88071187 11,0.5 C11,0.328935178 10.9828187,0.161883275 10.9500875,0.000475806803 L17,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Mac/Monochrome/17x17/img.vector.point.disconnected.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" transform="translate(0.000000, 3.000000)">
+            <g id="Group" transform="translate(0.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M8.34872164,1.25137211 C8.41049249,1.27543876 8.48156869,1.28294336 8.57749315,1.2716683 C10.2269641,2.8731215 11.7012766,4.32559666 13.0003553,5.62900697 L13,7 L14.3539117,6.99813011 C14.7445585,7.3976788 15.2286484,7.89801833 15.8060447,8.49901361 L1,8.5 C1,4.45987031 4.22410554,1.32628417 8.34872164,1.25137211 Z" id="Combined-Shape" fill-opacity="0.2" fill="#000000" mask="url(#mask-2)"></path>
+                <path d="M16.5,8.5 C15.6502541,7.6136918 14.9796333,6.92063506 14.4881376,6.42082979 M8.5,0.5 C8.36295889,0.367241421 8.64075591,0.886357284 8.5,0.75 C4.081722,0.75 0.5,4.081722 0.5,8.5" id="Oval-8" stroke="#000000" stroke-linecap="round" mask="url(#mask-2)"></path>
+            </g>
+            <circle id="Oval-5" stroke="#000000" cx="8.5" cy="2.5" r="2"></circle>
+            <rect id="Rectangle-8" stroke="#000000" x="0.5" y="1.5" width="2" height="2" rx="0.5"></rect>
+            <line x1="2.5" y1="2.5" x2="6.5" y2="2.5" id="Path-6" stroke="#000000"></line>
+            <rect id="Rectangle-8" stroke="#000000" x="12.5" y="6.5" width="2" height="2" rx="0.5"></rect>
+            <line x1="12.5" y1="6.5" x2="10" y2="4" id="Path-5" stroke="#000000"></line>
+        </g>
+    </g>
+</svg>

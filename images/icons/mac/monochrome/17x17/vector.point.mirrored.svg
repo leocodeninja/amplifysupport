@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mac/Monochrome/17x17/img.vector.point.mirrored.17</title>
+    <defs>
+        <path d="M17,0 L17,13 L0,13 L0,0 L17,0 Z M8.5,0 C7.11928813,0 6,1.11928813 6,2.5 C6,3.88071187 7.11928813,5 8.5,5 C9.88071187,5 11,3.88071187 11,2.5 C11,1.11928813 9.88071187,0 8.5,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Mac/Monochrome/17x17/img.vector.point.mirrored.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" transform="translate(0.000000, 3.000000)">
+            <g id="Group">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <path d="M16.5,10.5 C16.5,6.081722 12.918278,2.75 8.5,2.75 C4.081722,2.75 0.5,6.081722 0.5,10.5" id="Oval-8" stroke="#000000" fill-opacity="0.2" fill="#000000" stroke-linecap="round" mask="url(#mask-2)"></path>
+            </g>
+            <circle id="Oval-5" stroke="#000000" cx="8.5" cy="2.5" r="2"></circle>
+            <rect id="Rectangle-8" stroke="#000000" x="0.5" y="1.5" width="2" height="2" rx="0.5"></rect>
+            <rect id="Rectangle-8" stroke="#000000" x="14.5" y="1.5" width="2" height="2" rx="0.5"></rect>
+            <line x1="2.5" y1="2.5" x2="6.5" y2="2.5" id="Path-7" stroke="#000000"></line>
+            <line x1="10.5" y1="2.5" x2="14.5" y2="2.5" id="Path-9" stroke="#000000"></line>
+        </g>
+    </g>
+</svg>

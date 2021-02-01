@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mac/Monochrome/17x17/img.knife.17</title>
+    <defs>
+        <path d="M13.4291145,11.5376002 C10.7432916,12.7986098 7.16414336,11.4804467 2.69166973,7.58311104 L4.19163324,6.08314753 L0.391745435,2.28325972 C-0.130581812,1.76093247 -0.130581812,0.914072682 0.391745435,0.391745435 C0.914072682,-0.130581812 1.76093247,-0.130581812 2.28325972,0.391745435 C7.32643146,5.50222763 11.0417164,9.21751256 13.4291145,11.5376002 Z" id="path-1"></path>
+    </defs>
+    <g id="Mac/Monochrome/17x17/img.knife.17" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.750000, 2.500000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" stroke="#000000" stroke-linejoin="round" transform="translate(6.714557, 6.000000) scale(-1, 1) translate(-6.714557, -6.000000) " xlink:href="#path-1"></use>
+            <line x1="7.5" y1="6.28738911" x2="9.47155558" y2="4.28021032" id="Path" stroke="#000000" stroke-linejoin="round" mask="url(#mask-2)" transform="translate(8.485778, 5.283800) scale(-1, 1) translate(-8.485778, -5.283800) "></line>
+            <path d="M7.5,4.09282766 C8.63081448,2.95339926 9.84837715,1.7228254 11.152688,0.401106098 C11.6874961,-0.133702033 12.5545914,-0.133702033 13.0893996,0.401106098 C13.6242077,0.935914229 13.6242077,1.80300953 13.0893996,2.33781766 L9.41719479,6.01002245 L7.5,4.09282766 L7.5,4.09282766 Z" id="Combined-Shape" fill-opacity="0.2" fill="#000000" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
